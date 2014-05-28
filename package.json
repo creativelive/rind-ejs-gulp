@@ -1,0 +1,40 @@
+{
+  "name": "rind-ejs-gulp",
+  "version": "0.0.1",
+  "description": "Gulp tasks to create rind i18n clientside files",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/gulp/bin/gulp.js lint && ./node_modules/gulp/bin/gulp.js test"
+  },
+  "author": "Matthew Hadley (https://github.com/diffsky)",
+  "license": "MIT",
+  "dependencies": {
+    "ejstpl": ">=2.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.6.2",
+    "minimist": "^0.1.0",
+    "rimraf": "^2.2.8",
+    "gulp-jsbeautifier": "0.0.2",
+    "gulp-diff": "^0.1.4",
+    "confidence": "^0.12.1",
+    "gulp-eslint": "^0.1.7"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/creativelive/rind-ejs-gulp.git"
+  },
+  "keywords": [
+    "gulp",
+    "ejs",
+    "rind",
+    "compile"
+  ],
+  "bugs": {
+    "url": "https://github.com/creativelive/rind-ejs-gulp/issues"
+  },
+  "homepage": "https://github.com/creativelive/rind-ejs-gulp"
+}

@@ -11,6 +11,7 @@ var gulp = require('gulp');
 var ejstpl = require('rind-ejs-tpl');
 
 // see ejstpl for valid options
-gulp.task('ejs', ['clean'], ejstpl(gulp, opts));
+// by default, the ejstpl.js will be copied to the opts.output directory
+gulp.task('ejs', ejstpl(gulp, opts));
 
 ```

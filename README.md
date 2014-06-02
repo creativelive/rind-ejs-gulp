@@ -1,4 +1,4 @@
-# rind-ejs-gulp [![](https://travis-ci.org/creativelive/rind-ejs-gulp.png)](https://travis-ci.org/creativelive/rind-ejs-gulp)
+# rind-ejs-gulp [![](https://travis-ci.org/creativelive/rind-ejs-gulp.svg)](https://travis-ci.org/creativelive/rind-ejs-gulp)
 
 Gulp tasks to create clientside ejs functions from [ejstpl](https://github.com/diffsky/ejstpl)
 

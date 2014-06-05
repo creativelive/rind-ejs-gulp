@@ -3,6 +3,7 @@
 var ejstpl = require('ejstpl');
 var fs = require('fs');
 var path = require('path');
+var mkdirp = require('mkdirp').sync;
 
 module.exports = function ejs(gulp, conf) {
   conf = conf || {};
@@ -21,6 +22,7 @@ module.exports = function ejs(gulp, conf) {
       output: conf.output
     });
 
+    mkdirp(path.dirname(conf.ejstpl));
     fs.writeFileSync(conf.ejstpl, fs.readFileSync(path.join(__dirname, 'node_modules', 'ejstpl', 'dist', 'ejstpl.js'), 'utf8'));
 
     cb();

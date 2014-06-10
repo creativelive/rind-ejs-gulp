@@ -1,6 +1,6 @@
 {
   "name": "rind-ejs-gulp",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Gulp tasks to create rind i18n clientside files",
   "main": "index.js",
   "scripts": {

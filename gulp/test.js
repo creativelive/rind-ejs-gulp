@@ -7,9 +7,9 @@ var fs = require('fs');
 module.exports = function(gulp, conf) {
 
   var opts = {
-    targets: [{
+    targets: {
       'all.js': '**/*.ejs'
-    }],
+    },
     cwd: path.join(conf.gwd, 'test', 'src'),
     output: path.join(conf.gwd, 'test', 'out'),
     verbose: true
